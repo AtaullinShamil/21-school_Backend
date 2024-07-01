@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "4313c4cd-8e0d-408c-a15b-6aa80eb0b3fb",
+		"name": "HH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35014163"
+	},
+	"item": [
+		{
+			"name": "HH",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "__ddg1_=SdIBz9A8HV0LsC5lr5kn; regions=1; region_clarified=NOT_SET; hhuid=xIA41Hh1kncPGmZxTe00bw--; tmr_lvid=03175cd2474a39dc705221a2cd18453a; tmr_lvidTS=1718701550644; _ym_uid=1718701551327820520; _ym_d=1718701551; device_magritte_breakpoint=l; device_breakpoint=l; iap.uid=82a7266543ef452d8d7a767ac48c9dc3; _xsrf=2dd2b7d45f217e7f87972ee6f83eb942; display=desktop; crypted_hhuid=CE21B849972933253526DF446F512B558312DE1577A2E63F62A5F74C5B4F9D90; GMT=3; _ym_isad=2; domain_sid=FAqleL7_6uPC1wrLkUoax%3A1719848519379; _ym_visorc=b; hhul=64e198e30a3adacb35f52f7812f60ece40abeac9272b0bda691a8e328d8923f7; remember=0; lrp=\"\"; lrr=\"\"; hhrole=anonymous; hhtoken=RvFz6kky5pDAxtO90z97klTNJPKG; __zzatgib-w-hh=MDA0dC0pXB4IH04NIH5rL2R7RSRfHDx1ZS9Bcy5dPSNRGHpiJUhaTwgqHRcydCdRDjxgQHZuMF5uICZmRxUgShFTayELUTQ1ZhBKT01HMzg/aH0eVBw5VREPFhI2FyMSfmwsVwsUWz1IcHcvN1dhMA8WEU1HDTJoUXtMZxUTRkIce3AtLGxzVycyOSdQfyIKay8LEnx0JlEOEV9FM2llaXAvYCASJRFNRxhFZFtCNigVS3FPHHp2X30qQmYmZ0tiH0NcUH0tFXtDPGMMcRVNCA03QFx/V2pbORdYCRQKQ2VbSj03FVlSdSlufTowG0VXJhpOWVV3XQg0Kk1CMG1VWDkMYT9KdC5ebmchHU4VVXlHSWtlTlNCLGYbcRVNCA00PVpyIg9bOSVYCBI/CyYgEghzJ1h/C2JARm1vG382XRw5YxEOIRdGWF17TEA=7qczmQ==; total_searches=2; tmr_detect=0%7C1719849466677; gsscgib-w-hh=N4Np7Cid5o1W3VeTaG3jF4UExMQCbrn8irotbYEOeJhTyzEGTersb2M0aimC7Wre8wp2pglRUWiXp1OfrobzaYra//0pAdhjHu8nz1p6afhoQNFi013fbO++Z7kOeEv+d7EnPZWh3X6A9+5GRN/RyMIo13BtqW51nEKTxxWF5f03HDZTjW/qGrZdxu458dBeBOyxPPSHdaEDi961xW+ZAc4jGoyjabEeTzRh0OUxwalT0FBo7u6qPUFyJG/JdiitdA==; cfidsgib-w-hh=V+PMrrWCO9HQexSvVMFetSYd4hzS4QHvVDVRMCrOAVgWQez5rMWvdKgV88KKPsw64ERHtyCAy9Ft2Gcj4gZvufo4+oqE2HIjMxN4ef1cJBuA3y2dIcsNQe0HVENmn0DuV4Jdf16ur4Ou1EOB9kNSKA8yLlZG4c4s51qaZg==; cfidsgib-w-hh=V+PMrrWCO9HQexSvVMFetSYd4hzS4QHvVDVRMCrOAVgWQez5rMWvdKgV88KKPsw64ERHtyCAy9Ft2Gcj4gZvufo4+oqE2HIjMxN4ef1cJBuA3y2dIcsNQe0HVENmn0DuV4Jdf16ur4Ou1EOB9kNSKA8yLlZG4c4s51qaZg==; gsscgib-w-hh=N4Np7Cid5o1W3VeTaG3jF4UExMQCbrn8irotbYEOeJhTyzEGTersb2M0aimC7Wre8wp2pglRUWiXp1OfrobzaYra//0pAdhjHu8nz1p6afhoQNFi013fbO++Z7kOeEv+d7EnPZWh3X6A9+5GRN/RyMIo13BtqW51nEKTxxWF5f03HDZTjW/qGrZdxu458dBeBOyxPPSHdaEDi961xW+ZAc4jGoyjabEeTzRh0OUxwalT0FBo7u6qPUFyJG/JdiitdA==; fgsscgib-w-hh=6Skva5fed2b1da400fe08966e4b96c6d4ca0b5d9"
+					},
+					{
+						"key": "origin",
+						"value": "https://hh.ru"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://hh.ru/vacancy/103016375?query=%D0%BA%D1%83%D1%80%D1%8C%D0%B5%D1%80&hhtmFrom=vacancy_search_list"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"124\", \"YaBrowser\";v=\"24.6\", \"Not-A.Brand\";v=\"99\", \"Yowser\";v=\"2.5\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-hhtmfrom",
+						"value": "vacancy_search_list"
+					},
+					{
+						"key": "x-hhtmsource",
+						"value": "vacancy"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-xsrftoken",
+						"value": "2dd2b7d45f217e7f87972ee6f83eb942"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"query\":\"курьер\",\"strings\":[\"Курьер небольших посылок (свободный график)\",\"Курьер по городу (не еда)\",\"Ищем курьеров на выгодные условия оплаты! \",\"Бонус за СТАРТ 5000р. \",\"Мы \",\"Курьерист\",\" - 10 лет осуществляем доставки партнерам и клиентам день в день! У нас БЕЗ ЕДЫ, легкие заказы: косметика, детские товары, документы, одежда и т.п.\",\"УСЛОВИЯ РАБОТЫ:\",\"✅ График работы\",\" определяешь сам (утром, днем, вечером), как подработка или на целый день.\",\"✅ Ежедневные выплаты дохода\",\" на любую карту \",\"+чаевые\",\"!\",\"✅ \",\"Быстрое \",\"заключение договора\",\" и регистрация, займет всего 20 минут.\",\"✅ Доплаты\",\" за транспортные расходы, бонусы, надбавки.\",\"+поддержка офиса\",\": оперативная помощь диспетчера, опытные логисты, доброжелательный отдел персонала.\",\"ЧТО НУЖНО ОТ ВАС:\",\"✅\",\" Телефон\",\"Android или iPhone с доступом в интернет.\",\"Принимаем \",\"БЕЗ ОПЫТА\",\" работы, наша вакансия подойдет каждому!\",\"Для работы \",\"НЕ нужны\",\" медкнижка, нет формы, нет термосумки.\",\"ЗАДАЧА проста:\",\"✅ получаешь\",\" заказ на телефон;\",\"забираешь заказ в магазине/офисе;\",\"✅ доставляешь\",\" по адресу получателя.\",\"ЗАРАБАТЫВАЕШЬ \",\"до 8685₽\",\" в день.\",\"ОТКЛИКАЙТЕСЬ СЕЙЧАС\",\", отвечаем оперативно!\",\"*****\",\"Наша вакансия также подойдет вам, если вы искали: работа курьером СберМаркет, работа доставка курьером, пеший курьер, работа пешим курьером, доставщик, курьер, автокурьер, свободный график, гибкий график, удобный график, свободный график, консультант, водитель, работа рядом с домом, без опыта, начинающий специалист, работа на выходные, в вечернее время, в дневное время, подработка, работа выходного дня, курьер на авто, курьер ВкусВилл, курьер Деливери, курьер Яндекс, работа курьером Деливери, работа курьером Самокат, работа курьером Яндекс Лавка, работа курьером Яндекс Еда, Озон, Ozon\",\"Небольшой вес посылок до 5 кг. Можно выбрать способ передвижения и откуда доставлять.\",\"забирать собранные заказы из магазинов и доставлять их до двери покупателя; . Что пригодится в работе: - телефон на базе Android.\",\"Два круглосуточных канала поддержки: в чате и по телефону.\",\"Оперативно доставлять заказы клиентам.\",\"Доставка интернет-заказов заранее собранных, оплаченных и упакованных. Необходимо только передать клиенту.\",\"Можно работать с любым устройством (андроид или IOS).\",\"Доставлять легкие заказы весом до 5 кг. - Смартфон с операционной системой iOS или Android.\",\"Никаких требований к опыту и образованию.\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hh.ru/highlight",
+					"protocol": "https",
+					"host": [
+						"hh",
+						"ru"
+					],
+					"path": [
+						"highlight"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
